@@ -3,11 +3,14 @@ import './App.css';
 import  Hello from './components/props/index'
 import States from './components/state';
 import Task from './components/Item/Task';
+import TodoList from './components/Item/TodoList';
 function App() {
   return (
     <div className="App">
-      <Task title="Tinh" creator="A" status="Doing"/>
 
+      <div style={{columnCount: 4 }}>
+      <TodoList />
+      </div>
     </div>
   );
 }

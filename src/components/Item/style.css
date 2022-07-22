@@ -1,0 +1,10 @@
+.Okia{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    position: relative;
+    left:50px;
+    top:10px;
+}
